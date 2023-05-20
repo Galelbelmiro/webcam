@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #e9e1e1;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    margin-left: 64.5%;
+    margin-top: 65px;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+a:hover {
+    color: red;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.upload-icon::before {
+    content: "\f093";
+    /* Código do ícone que você deseja usar - altere conforme necessário */
+    font-family: "Font Awesome 5 Free";
+    /* Nome da família de fontes da Font Awesome */
+    margin-right: 5px;
+    /* Espaçamento entre o ícone e o texto do link */
+}
+
+
+canvas {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
